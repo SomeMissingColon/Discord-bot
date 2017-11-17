@@ -30,4 +30,4 @@ async def rank(*args):
     await queueMatcherBot.say(getStats(summonerName))
 
 
-queueMatcherBot.run('Mzc4NjA2MzY0NjU1NjE2MDAw.DO85Xw.8GtG2x0L8I02G5Q9FuiHeFOa6_Q')
+queueMatcherBot.run('<BOT TOKEN GOES HERE>')
