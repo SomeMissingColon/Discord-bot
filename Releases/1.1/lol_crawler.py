@@ -1,13 +1,13 @@
 import requests
 def requestID(summonerName):
-    url = 'https://na1.api.riotgames.com/lol/summoner/v3/summoners/by-name/' + summonerName + '?api_key=RGAPI-eaa2b842-0bac-4b0c-8522-5f8744792d0a'
+    url = 'https://na1.api.riotgames.com/lol/summoner/v3/summoners/by-name/' + summonerName + '?api_key=<YOUR TOKEN HERE>'
     getObj = requests.get(url)
     print(getObj.json())
     return getObj.json()["id"]
 
 def requestRank(summonerId):
 
-    url = 'https://na1.api.riotgames.com/lol/league/v3/leagues/by-summoner/' + summonerId  + '?api_key=RGAPI-eaa2b842-0bac-4b0c-8522-5f8744792d0a'
+    url = 'https://na1.api.riotgames.com/lol/league/v3/leagues/by-summoner/' + summonerId  + '?api_key=<YOUR TOKEN HERE>'
     getObj = requests.get(url)
     print(getObj.json())
     return getObj.json()
