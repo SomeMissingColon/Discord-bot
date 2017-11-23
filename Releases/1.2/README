@@ -1,0 +1,10 @@
+Python version used for the project: 3.6.3
+
+Following is the module dependency which are not:
+-requests (acessing league api)
+-discord (duh)
+-asyncio(discord bot uses the async paradigm)
+
+Message me via mail if you encounter any issue or question: thomasnoidion@gmail.com
+
+:)
