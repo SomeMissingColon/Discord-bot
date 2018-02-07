@@ -1,10 +1,6 @@
-Python version used for the project: 3.6.3
+Made this wayyyy early in my learning process.
 
-Following is the module dependency which are not:
--requests (acessing league api)
--discord (duh)
--asyncio(discord bot uses the async paradigm)
+You like spaghetti? I've got spaghetti.
 
-Message me via mail if you encounter any issue or question: thomasnoidion@gmail.com
-
-:)
+This project is a discordbot allowing users to find league of legends players within the discord servers.
+I'm really proud of the matching logic, pretty much the only thing worth keeping AYY.
